@@ -10,4 +10,3 @@ def post_list(request):
         "published_date"
     )
     return render(request, "blog/post_list.html", {"posts": posts})
-
